@@ -10,8 +10,8 @@ libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 
 asdf plugin add python
-asdf install python latest
 asdf install python latest:3.9
+asdf install python latest:3.7
 
 asdf global python $(asdf list python | sort -V | tail -1)
 asdf reshim
