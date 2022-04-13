@@ -7,3 +7,6 @@ echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 asdf plugin add python
 asdf install python latest
 asdf install python latest:3.9
+
+asdf global python $(asdf list python | sort -V | tail -1)
+asdf reshim
