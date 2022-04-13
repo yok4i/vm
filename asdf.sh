@@ -2,8 +2,8 @@
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 . $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
 # install system dependencies for python
 sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
