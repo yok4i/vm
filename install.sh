@@ -3,7 +3,7 @@
 
 # install and configure asdf
 echo "Installing asdf"
-curl -sSL https://github.com/yok4i/vm/raw/main/asdf.sh | bash
+curl -sSL https://github.com/yok4i/vm/raw/main/asdf.sh | bash -
 
 # install poetry
 echo "Installing poetry"
